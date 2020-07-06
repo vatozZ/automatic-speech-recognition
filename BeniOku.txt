@@ -1,0 +1,31 @@
+
+SES TANIMLAMA PROJESÝ
+
+20.06.2020
+
+##########################################################################################################################
+
+recording.py -----> Database için ses kayýt burdan yapýlýyor.
+
+database(Dosya) -----> Kayýt edilen .wav dosyalarý burada saklanýyor.
+
+main.py ---------> ses dosyalarýný okuma, karþýlaþtýrma ve sonuç elde etme burada yapýlýyor. 
+
+Audio_processing.py  ----------> Sesin iþlenmesi, özelliklerinin grafikte incelenmesi (fft,stft, MFCCs,zaman uzayý)
+				için çalýþtýrýlmasý gereken program.
+
+Import edilmesi gereken kütüphaneler:
+					import pyaudio
+					import wave
+					from python_speech_features import mfcc
+					import sys
+					import numpy as np
+					from scipy.signal import butter, lfilter, freqz
+					import matplotlib.pyplot as plt
+					import scipy.io.wavfile as wav
+					import math
+					from fastdtw import fastdtw (veya) conda install -c bioconda/label/cf201901 fastdtw
+
+pip install -- komutu kullanarak gerekli kütüphaneleri import edebilirsiniz.
+
+##########################################################################################################################
