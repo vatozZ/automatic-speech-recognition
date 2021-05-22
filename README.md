@@ -26,4 +26,4 @@ import math
 from fastdtw import fastdtw (or) conda install -c bioconda / label / cf201901 fastdtw
 
 You can import the necessary libraries using the pip install - command.
-## Have fun :D
+## Have fun 
