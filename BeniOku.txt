@@ -1,20 +1,20 @@
 
-SES TANIMLAMA PROJESİ
+SES TANIMLAMA PROJESÄ°
 
-20.06.2020
+VV.VV.VVVV
 
 ##########################################################################################################################
 
-recording.py -----> Database için ses kayıt burdan yapılıyor.
+recording.py -----> Database iÃ§in ses kayÄ±t burdan yapÄ±lÄ±yor.
 
-database(Dosya) -----> Kayıt edilen .wav dosyaları burada saklanıyor.
+database(Dosya) -----> KayÄ±t edilen .wav dosyalarÄ± burada saklanÄ±yor.
 
-main.py ---------> ses dosyalarını okuma, karşılaştırma ve sonuç elde etme burada yapılıyor. 
+main.py ---------> ses dosyalarÄ±nÄ± okuma, karÅŸÄ±laÅŸtÄ±rma ve sonuÃ§ elde etme burada yapÄ±lÄ±yor. 
 
-Audio_processing.py  ----------> Sesin işlenmesi, özelliklerinin grafikte incelenmesi (fft,stft, MFCCs,zaman uzayı)
-				için çalıştırılması gereken program.
+Audio_processing.py  ----------> Sesin iÅŸlenmesi, Ã¶zelliklerinin grafikte incelenmesi (fft,stft, MFCCs,zaman uzayÄ±)
+				iÃ§in Ã§alÄ±ÅŸtÄ±rÄ±lmasÄ± gereken program.
 
-Import edilmesi gereken kütüphaneler:
+Import edilmesi gereken kÃ¼tÃ¼phaneler:
 					import pyaudio
 					import wave
 					from python_speech_features import mfcc
@@ -26,6 +26,6 @@ Import edilmesi gereken kütüphaneler:
 					import math
 					from fastdtw import fastdtw (veya) conda install -c bioconda/label/cf201901 fastdtw
 
-pip install -- komutu kullanarak gerekli kütüphaneleri import edebilirsiniz.
+pip install -- komutu kullanarak gerekli kÃ¼tÃ¼phaneleri import edebilirsiniz.
 
 ##########################################################################################################################
